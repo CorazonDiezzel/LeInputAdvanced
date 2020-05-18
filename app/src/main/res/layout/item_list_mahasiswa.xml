@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:maxWidth="80dp"
+    android:minWidth="80dp">
+
+    <ImageView
+        android:id="@+id/list_mhs_img"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="18dp"
+        android:layout_marginTop="14dp"
+        android:adjustViewBounds="true"
+        android:contentDescription="TODO"
+        tools:srcCompat="@tools:sample/avatars" />
+
+    <TextView
+        android:id="@+id/list_mhs_username"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/list_mhs_nim"
+        android:layout_alignStart="@id/list_mhs_nim"
+        android:text="Username" />
+
+    <TextView
+        android:id="@+id/list_mhs_v_username"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@id/list_mhs_username"
+        android:layout_toEndOf="@id/list_mhs_username"
+        android:layout_marginLeft="5dp"
+        android:text="TextView" />
+
+    <TextView
+        android:id="@+id/list_mhs_nama"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="5dp"
+        android:layout_marginBottom="5dp"
+        android:layout_toRightOf="@id/list_mhs_img"
+        android:layout_alignTop="@id/list_mhs_img"
+        android:text="Nama : " />
+
+    <TextView
+        android:id="@+id/list_mhs_v_nama"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@id/list_mhs_nama"
+        android:layout_alignStart="@id/list_mhs_v_username"
+        android:text="TextView" />
+
+    <TextView
+        android:id="@+id/list_mhs_nim"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/list_mhs_nama"
+        android:layout_marginBottom="5dp"
+        android:layout_alignStart="@id/list_mhs_nama"
+        android:text="NIM" />
+
+    <TextView
+        android:id="@+id/list_mhs_v_nim"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@id/list_mhs_nim"
+        android:layout_alignStart="@id/list_mhs_v_nama"
+        android:text="TextView" />
+</RelativeLayout>
