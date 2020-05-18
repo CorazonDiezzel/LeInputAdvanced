@@ -1,0 +1,2 @@
+rootProject.name='LeInputAdvanced'
+include ':app'
